@@ -1,9 +1,9 @@
 import "./home.css";
 import { userData } from "../../dummyData";
-// import WidgetSm from "../../components/widgetSm/WidgetSm";
-// import WidgetLg from "../../components/widgetLg/WidgetLg";
 import FeaturedInfo from "../../Components/FeaturedInfo/FeaturedInfo";
 import Chart from "../../Components/Chart/Chart";
+import WidgetSm from "../../Components/WidgetSm/WidgetSm";
+import WidgetLg from "../../Components/Widgetlg/Widgetlg";
 
 export default function Home() {
   return (
@@ -15,10 +15,10 @@ export default function Home() {
         grid
         dataKey="Active User"
       />
-      {/* <div className="homeWidgets">
+      <div className="homeWidgets">
         <WidgetSm />
         <WidgetLg />
-      </div> */}
+      </div>
     </div>
   );
 }
